@@ -1,4 +1,4 @@
-#Sorteador de números (Grunt)
+# Sorteador de números (Grunt)
 
 Aplicação simples de sorteio de números. O usuário insere um valor máximo e o sistema gera um número aleatório entre 0 e esse valor.
 
