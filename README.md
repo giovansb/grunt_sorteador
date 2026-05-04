@@ -4,7 +4,7 @@ Aplicação simples de sorteio de números. O usuário insere um valor máximo e
 
 ## Tecnologias
 - HTML
-- CSS
+- LESS
 - JavaScript
 - Grunt
 
