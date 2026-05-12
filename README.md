@@ -1,31 +1,61 @@
 # Sorteador de números (Grunt)
+Aplicação simples de sorteador de números desenvolvida para praticar JavaScript e automação de tarefas com Grunt.
 
-Aplicação simples de sorteio de números. O usuário insere um valor máximo e o sistema gera um número aleatório entre 0 e esse valor.
-
-## Tecnologias
+## 🚀 Tecnologias
 - HTML
 - LESS
 - JavaScript
 - Grunt
 
-## Funcionalidades
-- Inserir valor máximo
-- Gerar número aleatório
-- Exibir resultado na tela
+## 📚 Sobre o projeto
+A aplicação permite gerar um número aleatório com base em um valor máximo informado pelo usuário, exibindo o resultado dinamicamente na tela.
 
-## Automação com Grunt
-- Utilização do Grunt para automação de tarefas no projeto
+## ✨ Funcionalidades
+- Inserção de valor máximo
+- Geração de número aleatório
+- Atualização dinâmica do resultado
+- Exibição do resultado sem recarregar a página
+
+## ⚙️ Automação com Grunt
+O projeto utiliza Grunt para automatizar tarefas de desenvolvimento e build.
+
+### Tarefas utilizadas
+- Compilação de arquivos LESS
+- Minificação de JavaScript
+- Minificação de HTML
+- Monitoramento automático de arquivos (`watch`)
+- Geração de arquivos para ambiente de produção
+
+## 🧠 Conceitos praticados
+- Manipulação do DOM
+- Eventos com JavaScript
+- Funções
+- Geração de números aleatórios
+- Automação de tarefas
+- Build de produção
+- Organização de arquivos front-end
+
+## 🔗 Acesso ao projeto
+https://grunt-sorteador-olive.vercel.app/
 
 ## Como usar
 1. Insira um número máximo
 2. Clique em "Sortear"
 3. Veja o número gerado
 
-## Como rodar o projeto
+## 💻 Como rodar o projeto
 1. Clone o repositório
 2. Instale as dependências:
-   npm install
+```bash
+npm install
+```
 3. Execute:
-   npx grunt
+### Ambiente de desenvolvimento
+```bash
+npx grunt
+```
 
-Ou abra o arquivo index.html diretamente no navegador (se aplicável)
+### Build de produção
+```bash
+npx grunt build
+```
